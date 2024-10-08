@@ -20,3 +20,9 @@ SELECT breed, COUNT(breed) FROM cats GROUP BY breed;
 SELECT name FROM cats;
 or
 SELECT cats.name FROM cats;
+
+
+CREATE TABLE dogs (
+  id INTEGER PRIMARY KEY,
+  name TEXT
+);
