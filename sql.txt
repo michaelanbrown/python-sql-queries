@@ -26,3 +26,5 @@ CREATE TABLE dogs (
   id INTEGER PRIMARY KEY,
   name TEXT
 );
+
+SELECT cats.name, dogs.name FROM cats, dogs;
