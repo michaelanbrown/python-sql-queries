@@ -5,3 +5,5 @@ SELECT * FROM cats WHERE name = "Maru";
 SELECT * FROM cats ORDER BY age;
 
 SELECT * FROM cats ORDER BY age DESC;
+
+SELECT * FROM cats ORDER BY age DESC LIMIT 1;
