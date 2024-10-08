@@ -7,3 +7,5 @@ SELECT * FROM cats ORDER BY age;
 SELECT * FROM cats ORDER BY age DESC;
 
 SELECT * FROM cats ORDER BY age DESC LIMIT 1;
+
+SELECT column_name(s) FROM table_name WHERE column_name BETWEEN value1 AND value2;
