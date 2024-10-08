@@ -1,3 +1,5 @@
 SELECT * FROM cats;
 
 SELECT * FROM cats WHERE name = "Maru";
+
+SELECT * FROM cats ORDER BY age;
