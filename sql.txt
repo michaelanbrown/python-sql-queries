@@ -1,1 +1,3 @@
 SELECT * FROM cats;
+
+SELECT * FROM cats WHERE name = "Maru";
